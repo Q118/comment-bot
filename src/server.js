@@ -9,7 +9,7 @@ app.get('/train', function (req, res) {
     tf.ready().then(() => {
         const message = "Loaded TensorFlow.js - version: " + tf.version.tfjs + " \n with backend " + tf.getBackend();
         console.log(message);
-        // training code 
+        // todo training code 
         res.send(message);
     });
 })
