@@ -1,0 +1,31 @@
+{
+    "name": "toxicity-detector",
+    "version": "1.0.0",
+    "description": "### Pre-requisite  - Node : install from https://nodejs.org/en/",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "parcel src/index.html",
+        "build": "parcel build src/index.html"
+    },
+    "author": "Shelby Rothman",
+    "license": "ISC",
+    "dependencies": {
+        "@tensorflow/tfjs": "^2.8.6",
+        "@tensorflow/tfjs-backend-wasm": "^2.7.0",
+        "@tensorflow/tfjs-node": "^2.7.0",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "parcel": "^2.3.2",
+        "parcel-bundler": "^1.12.4",
+        "parcel-plugin-static-files-copy": "^2.5.0"
+    },
+    "staticFiles": {
+        "staticPath": "./node_modules/@tensorflow/tfjs-backend-wasm/dist",
+        "excludeGlob": [
+            "**/!(*.wasm)"
+        ]
+    },
+    "keywords": []
+}
