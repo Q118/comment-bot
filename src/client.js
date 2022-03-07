@@ -1,7 +1,7 @@
 import * as tf from '@tensorflow/tfjs';
 import '@tensorflow/tfjs-backend-wasm';
 import "regenerator-runtime/runtime";
-// import * as model from './model';
+import * as model from './model';
 
 // console.log(tf.version);
 // tf.setBackend('wasm');
@@ -55,7 +55,7 @@ console.log("line2");
 const init = async () => {
     await tf.ready();
     console.log(tf.getBackend());
-    // model.train();
+    model.train();
 }
 init();
 console.log("line4");
