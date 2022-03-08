@@ -18,3 +18,4 @@ TF
 
 TF * IDF    = TFIDF Matrix
 
+"Tokenization"- breaking down a sentence into words
