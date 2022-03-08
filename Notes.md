@@ -11,3 +11,10 @@ choice, such as dog, fish, iguana, rock, etc.
 Once you've trained your model, you will give it sets 
 of new input containing those features; it will return
  the predicted "label" (pet type) for that person. 
+
+TF
+ IDF
+ - if a word is more common among the documents, its less useful
+
+TF * IDF    = TFIDF Matrix
+
