@@ -224,7 +224,7 @@ const run = async () => {
     //     documentTokens.push(tokenize(comment, true));
     // });
 
-    console.log(tmpDictionary);
+    // console.log(tmpDictionary);
     // const sortedTmpDictionary = sortDictionaryByValue(tmpDictionary);
     // const dictionary = sortedTmpDictionary.map((row) => row[0]);
     // const idfs = getInverseDocumentFrequency(documentTokens, dictionary);
